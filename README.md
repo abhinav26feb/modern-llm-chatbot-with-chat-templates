@@ -68,7 +68,8 @@ Conversation History Update
 
 Clone the repository:
 
-git clone https://github.com/abhinav26feb/modern-llm-chatbot-with-chat-templates.git/n
+git clone https://github.com/abhinav26feb/modern-llm-chatbot-with-chat-templates.git
+
 cd modern-llm-chatbot-with-chat-templates
 
 Install required dependencies:
@@ -83,8 +84,10 @@ python chatbot_llm.py
 
 Type:
 
-exit
+> exit
+
 to end the conversation.
+
 
 ## Example Conversation
 
@@ -108,6 +111,7 @@ The chatbot uses structured messages:
 
 
 messages = [
+
     {
         "role": "system",
         "content": "You are a helpful AI assistant."
@@ -123,32 +127,47 @@ messages = [
 
 | Role | Purpose |
 |--------|---------|
+
 | System | Defines chatbot behavior |
+
 | User | User questions and requests |
+
 | Assistant | Model-generated responses |
+
 
 ## Learning Outcomes
 
 By completing this project, you will learn:
 
 - How modern LLM chatbots work
+  
 - Difference between Seq2Seq and Causal LLMs
+
 - Transformer-based text generation
+
 - Chat Templates in Hugging Face
+
 - Managing conversation history
+
 - Prompt engineering fundamentals
+
 - Deploying open-source AI models
+
 
 ## Generation Parameters
 
 The chatbot uses:
 
-
 max_new_tokens=60
+
 temperature=0.5
+
 top_p=0.8
+
 do_sample=True
+
 repetition_penalty=1.3
+
 no_repeat_ngram_size=3
 
 
