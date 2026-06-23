@@ -36,9 +36,7 @@ The project provides hands-on experience with:
 
 **Model Used**
 
-```python
 HuggingFaceTB/SmolLM2-360M-Instruct
-```
 
 SmolLM2-360M-Instruct is a lightweight instruction-tuned causal language model designed for conversational AI applications. It supports chat templates and structured message formatting similar to modern AI assistants.
 
@@ -70,8 +68,7 @@ Conversation History Update
 
 Clone the repository:
 
-
-git clone https://github.com/abhinav26feb/modern-llm-chatbot-with-chat-templates.git
+git clone https://github.com/abhinav26feb/modern-llm-chatbot-with-chat-templates.git/n
 cd modern-llm-chatbot-with-chat-templates
 
 Install required dependencies:
