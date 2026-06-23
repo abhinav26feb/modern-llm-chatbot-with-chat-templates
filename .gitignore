@@ -1,0 +1,70 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+my_env/
+.venv/
+
+# Environment variables
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# PyCharm
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Hugging Face cache
+.cache/
+huggingface/
+
+# Model files
+*.bin
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+
+# Temporary files
+*.tmp
+*.temp
+
+# Coverage reports
+.coverage
+htmlcov/
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+
+# Ruff
+.ruff_cache/
+
+# Generated files
+*.csv
+*.xlsx
+
+# Secrets
+secrets.json
+credentials.json
