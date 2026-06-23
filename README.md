@@ -44,7 +44,6 @@ SmolLM2-360M-Instruct is a lightweight instruction-tuned causal language model d
 
 ## Project Architecture
 
-```text
 User Input
     │
     ▼
@@ -65,40 +64,34 @@ Generated Response
     │
     ▼
 Conversation History Update
-```
+
 
 ## Installation
 
 Clone the repository:
 
-```bash
-git clone https://github.com/abhinav26feb/simple-ai-chatbot.git
-cd simple-ai-chatbot
-```
+
+git clone https://github.com/abhinav26feb/modern-llm-chatbot-with-chat-templates.git
+cd modern-llm-chatbot-with-chat-templates
 
 Install required dependencies:
 
-```bash
 pip install transformers torch accelerate
-```
+
 
 ## Running the Chatbot
 
-```bash
+
 python chatbot_llm.py
-```
 
 Type:
 
-```text
 exit
-```
-
 to end the conversation.
 
 ## Example Conversation
 
-```text
+
 > Hello, how are you?
 
 Bot: I'm doing well, thank you! How can I assist you today?
@@ -110,13 +103,13 @@ Bot: Machine Learning is a branch of Artificial Intelligence that enables comput
 > Explain NLP in one sentence.
 
 Bot: Natural Language Processing is a field of AI focused on enabling computers to understand and generate human language.
-```
+
 
 ## Chat Template Format
 
 The chatbot uses structured messages:
 
-```python
+
 messages = [
     {
         "role": "system",
@@ -127,7 +120,7 @@ messages = [
         "content": "What is AI?"
     }
 ]
-```
+
 
 ### Supported Roles
 
@@ -153,14 +146,14 @@ By completing this project, you will learn:
 
 The chatbot uses:
 
-```python
+
 max_new_tokens=60
 temperature=0.5
 top_p=0.8
 do_sample=True
 repetition_penalty=1.3
 no_repeat_ngram_size=3
-```
+
 
 These settings help generate concise, coherent, and less repetitive responses.
 
