@@ -1,6 +1,5 @@
 from transformers import AutoTokenizer, AutoModelForCausalLM
-import torch
-import warnings
+import warnings, accelerate, torch
 
 warnings.filterwarnings("ignore")
 
